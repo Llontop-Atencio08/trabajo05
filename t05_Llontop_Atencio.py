@@ -42,5 +42,18 @@ numero_total_de_pedidos_es_int=isinstance(numero_total_de_pedidos,int)
 numero_total_de_pedidos_es_str=isinstance(numero_total_de_pedidos,str)
 
 print("variable numero total de pedidos es:",type_numero_total_de_pedidos)
-print("variable?:",numero_total_de_pedidos_es_int)
-print("variable?:",numero_total_de_pedidos_es_str)
+print("variable es int?:",numero_total_de_pedidos_es_int)
+print("variable es str?:",numero_total_de_pedidos_es_str)
+
+
+#EJERCICIO_05
+costo_por_litro_de_leche_fresca=1.20
+type_costo_por_litro_de_leche_fresca=type(costo_por_litro_de_leche_fresca)
+
+costo_por_litro_de_leche_fresca_es_float=isinstance(costo_por_litro_de_leche_fresca,float)
+costo_por_litro_de_leche_fresca_es_str=isinstance(costo_por_litro_de_leche_fresca,str)
+
+print("variable costo por litro de leche es:",type_costo_por_litro_de_leche_fresca)
+print("variable es float?:",costo_por_litro_de_leche_fresca_es_float)
+print("variable es str?:",costo_por_litro_de_leche_fresca_es_str)
+
