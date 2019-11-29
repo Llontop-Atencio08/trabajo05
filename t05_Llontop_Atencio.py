@@ -32,3 +32,15 @@ ingreso_total_de_una_consultora_natura_es_str=isinstance(ingreso_total_de_una_co
 print("variable ingreso total de una consultora natura es:",type_ingreso_total_de_una_consultora_natura)
 print("variable es float?:",ingreso_total_de_una_consultora_natura_es_float)
 print("variable es str?:",ingreso_total_de_una_consultora_natura_es_str)
+
+
+#EJERCICIO_04
+numero_total_de_pedidos=20
+type_numero_total_de_pedidos=type(numero_total_de_pedidos)
+
+numero_total_de_pedidos_es_int=isinstance(numero_total_de_pedidos,int)
+numero_total_de_pedidos_es_str=isinstance(numero_total_de_pedidos,str)
+
+print("variable numero total de pedidos es:",type_numero_total_de_pedidos)
+print("variable?:",numero_total_de_pedidos_es_int)
+print("variable?:",numero_total_de_pedidos_es_str)
