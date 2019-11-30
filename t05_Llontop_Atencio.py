@@ -378,3 +378,15 @@ type_monto_total_de_jugos_de_naranja_es_str=isinstance(monto_total_de_jugos_de_n
 print("variable monto total de jugos de naranja:",type_monto_total_de_jugos_de_naranja_es_float)
 print("variable es float?:",type_monto_total_de_jugos_de_naranja_es_float)
 print("variable es float?:",type_monto_total_de_jugos_de_naranja_es_str)
+
+
+#EJERCICIO_33
+producto="paquetes de agua"
+type_producto=type(producto)
+
+type_producto_es_str=isinstance(producto,str)
+type_producto_es_float=isinstance(producto,float)
+
+print("variable producto es:",type_producto_es_str)
+print("variable es str?:",type_producto_es_str)
+print("variable es float?:",type_producto_es_float)
