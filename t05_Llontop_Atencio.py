@@ -390,3 +390,15 @@ type_producto_es_float=isinstance(producto,float)
 print("variable producto es:",type_producto_es_str)
 print("variable es str?:",type_producto_es_str)
 print("variable es float?:",type_producto_es_float)
+
+
+#EJERCICIO_34
+venta_total_en_el_mes_de_enero=3600.80
+type_venta_total_en_el_mes_de_enero=type(venta_total_en_el_mes_de_enero)
+
+type_venta_total_en_el_mes_de_enero_es_float=isinstance(venta_total_en_el_mes_de_enero,float)
+type_venta_total_en_el_mes_de_enero_es_str=isinstance(venta_total_en_el_mes_de_enero,str)
+
+print("variable venta total en el mes de enero:",type_venta_total_en_el_mes_de_enero_es_float)
+print("variable es float?:",type_venta_total_en_el_mes_de_enero_es_float)
+print("variable es str?:",type_venta_total_en_el_mes_de_enero_es_str)
