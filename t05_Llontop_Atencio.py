@@ -414,3 +414,15 @@ type_venta_total_en_el_mes_de_febrero_es_str=isinstance(venta_total_en_el_mes_de
 print("variable venta total en el mes de febrero:",type_venta_total_en_el_mes_de_febrero_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_febrero_es_float)
 print("variable es str?:",type_venta_total_en_el_mes_de_febrero_es_str)
+
+
+#EJERCICIO_36
+venta_total_en_el_mes_de_marzo=489.90
+type_venta_total_en_el_mes_de_marzo=type(venta_total_en_el_mes_de_marzo)
+
+type_venta_total_en_el_mes_de_marzo_es_float=isinstance(venta_total_en_el_mes_de_marzo,float)
+type_venta_total_en_el_mes_de_marzo_es_str=isinstance(venta_total_en_el_mes_de_marzo,str)
+
+print("variable venta total en el mes de marzo:",type_venta_total_en_el_mes_de_marzo_es_float)
+print("variable es float?:",type_venta_total_en_el_mes_de_marzo_es_float)
+print("variable es str?:",type_venta_total_en_el_mes_de_marzo_es_str)
