@@ -155,7 +155,7 @@ print("variable es float?",type_nombre_de_colegio_es_float)
 
 
 #EJERCICIO_14
-edad_de_alumno="16"
+edad_de_alumno=16
 type_edad_de_alumno=type(edad_de_alumno)
 
 type_edad_de_alumno_es_str=isinstance(edad_de_alumno,str)
@@ -164,3 +164,15 @@ type_edad_de_alumno_es_int=isinstance(edad_de_alumno,int)
 print("variable edad de alumno:",type_edad_de_alumno_es_int)
 print("variable es int?:",type_edad_de_alumno_es_int)
 print("variable es str?:",type_edad_de_alumno_es_str)
+
+
+#EJERCICIO_15
+nombre_de_tienda="don_pepe"
+type_nombre_de_tienda=type(nombre_de_tienda)
+
+type_nombre_de_tienda_es_str=isinstance(nombre_de_tienda,str)
+type_nombre_de_tienda_es_float=isinstance(nombre_de_tienda,float)
+
+print("variable nombre de tienda:",type_nombre_de_tienda_es_str)
+print("variable es str?:",type_nombre_de_tienda_es_str)
+print("variable es float:",type_nombre_de_tienda_es_float)
