@@ -438,3 +438,15 @@ type_venta_total_en_el_mes_de_abril_es_str=isinstance(venta_total_en_el_mes_de_a
 print("variable venta total en el mes de abril:",type_venta_total_en_el_mes_de_abril_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_abril_es_float)
 print("variable es str?:",type_venta_total_en_el_mes_de_abril_es_str)
+
+
+#EJERCICO_38
+venta_total_en_el_mes_de_mayo=257.90
+type_venta_total_en_el_mes_de_mayo=type(venta_total_en_el_mes_de_mayo)
+
+type_venta_total_en_el_mes_de_mayo_es_float=isinstance(venta_total_en_el_mes_de_mayo,float)
+type_venta_total_en_el_mes_de_mayo_es_str=isinstance(venta_total_en_el_mes_de_mayo,str)
+
+print("variable venta total en el mes de mayo:",type_venta_total_en_el_mes_de_mayo_es_float)
+print("variable es float?:",type_venta_total_en_el_mes_de_mayo_es_float)
+print("variable es str?:",type_venta_total_en_el_mes_de_mayo_es_str)
