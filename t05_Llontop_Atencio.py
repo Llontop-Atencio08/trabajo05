@@ -116,3 +116,15 @@ type_nombre_de_alumno_es_float=isinstance(nombre_de_alumno,float)
 print("variable nombre de alumno:",type_nombre_de_alumno_es_str)
 print("variable es str?:",type_nombre_de_alumno_es_str)
 print("variable es float?:",type_nombre_de_alumno_es_float)
+
+
+#EJERCICIO_11
+codigo_de_alumno="151761a"
+type_codigo_de_alumno=type(codigo_de_alumno)
+
+type_codigo_de_alumno_es_str=isinstance(codigo_de_alumno,str)
+type_codigo_de_alumno_es_int=isinstance(codigo_de_alumno,int)
+
+print("variable codigo de alumno:",type_codigo_de_alumno_es_str)
+print("variable es str?:",type_codigo_de_alumno_es_str)
+print("variable es int?:",type_codigo_de_alumno_es_int)
