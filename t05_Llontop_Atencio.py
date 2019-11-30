@@ -130,7 +130,7 @@ print("variable es str?:",type_codigo_de_alumno_es_str)
 print("variable es int?:",type_codigo_de_alumno_es_int)
 
 
-#EJERCIOIO_12
+#EJERCICIO_12
 nota_del_alumno=15
 type_nota_del_alumno=type(nota_del_alumno)
 
@@ -140,3 +140,15 @@ type_nota_del_alumno_es_str=isinstance(nota_del_alumno,str)
 print("variable nota del alumno:",type_nota_del_alumno_es_int)
 print("variable es int?:",type_nota_del_alumno_es_int)
 print("variable es str?:",type_nota_del_alumno_es_str)
+
+
+#EJERCICIO_13
+nombre_de_colegio="san_carlos"
+type_nombre_colegio=type(nombre_de_colegio)
+
+type_nombre_de_colegio_es_str=isinstance(nombre_de_colegio,str)
+type_nombre_de_colegio_es_float=isinstance(nombre_de_colegio,float)
+
+print("variable nombre de colegio:",type_nombre_de_colegio_es_str)
+print("variable es str?:",type_nombre_de_colegio_es_str)
+print("variable es float?",type_nombre_de_colegio_es_float)
