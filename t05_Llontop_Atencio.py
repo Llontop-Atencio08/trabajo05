@@ -450,3 +450,15 @@ type_venta_total_en_el_mes_de_mayo_es_str=isinstance(venta_total_en_el_mes_de_ma
 print("variable venta total en el mes de mayo:",type_venta_total_en_el_mes_de_mayo_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_mayo_es_float)
 print("variable es str?:",type_venta_total_en_el_mes_de_mayo_es_str)
+
+
+#EJERCICIO_39
+venta_total_en_el_mes_de_junio=357.90
+type_venta_total_en_el_mes_de_junio=type(venta_total_en_el_mes_de_junio)
+
+type_venta_total_en_el_mes_de_junio_es_float=isinstance(venta_total_en_el_mes_de_junio,float)
+type_venta_total_en_el_mes_de_junio_es_str=isinstance(venta_total_en_el_mes_de_junio,str)
+
+print("variable venta total en el mes de junio:",type_venta_total_en_el_mes_de_junio_es_float)
+print("variable es float?:",type_venta_total_en_el_mes_de_junio_es_float)
+print("variable es str?:",type_venta_total_en_el_mes_de_junio_es_str)
