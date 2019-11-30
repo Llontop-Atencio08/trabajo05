@@ -224,3 +224,17 @@ type_producto_es_int=isinstance(producto,int)
 print("variable producto es:",type_producto_es_str)
 print("variable es str?:",type_producto_es_str)
 print("variable es int?:",type_producto_es_int)
+
+
+#EJERCICIO_20
+departamento="lambayeque"
+type_lambayeque=type(departamento)
+
+type_departamento_es_str=isinstance(departamento,str)
+type_departamento_es_int=isinstance(departamento,int)
+
+print("variable departamento es:",type_departamento_es_str)
+print("variable es str?:",type_departamento_es_str)
+print("variable es int?:",type_departamento_es_int)
+
+
