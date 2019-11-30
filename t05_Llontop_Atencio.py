@@ -343,3 +343,15 @@ type_anio_de_nacimiento_es_str=isinstance(anio_de_nacimiento,str)
 print("variable anio de nacimiento:",type_anio_de_nacimiento_es_int)
 print("variable es int?:",type_anio_de_nacimiento_es_int)
 print("variable es str?:",type_anio_de_nacimiento_es_str)
+
+
+#EJERCICIO_30
+numero_de_vasos_de_jugo_surtido=25
+type_numero_de_vasos_de_jugo_surtido=type(numero_de_vasos_de_jugo_surtido)
+
+type_numero_de_vasos_de_jugo_surtido_es_int=isinstance(numero_de_vasos_de_jugo_surtido,int)
+type_numero_de_vasos_de_jugo_surtido_es_float=isinstance(numero_de_vasos_de_jugo_surtido,float)
+
+print("variable numero de vasos de jugo surtido:",type_numero_de_vasos_de_jugo_surtido_es_int)
+print("variable es int?:",type_numero_de_vasos_de_jugo_surtido_es_int)
+print("variable es float?:",type_numero_de_vasos_de_jugo_surtido_es_float)
