@@ -582,3 +582,15 @@ type_nombre_de_vendedor_es_float=isinstance(nombre_de_vendedor,float)
 print("variable nombre de vendedor:",type_nombre_de_vendedor_es_str)
 print("variable es str?:",type_nombre_de_vendedor_es_str)
 print("variable es float?:",type_nombre_de_vendedor_es_float)
+
+
+#EJERCICIO_50
+monto_total_en_semana_uno=540.98
+type_monto_total_en_semana_uno=type(monto_total_en_semana_uno)
+
+type_monto_total_en_semana_uno_es_float=isinstance(monto_total_en_semana_uno,float)
+type_monto_total_en_semana_uno_es_str=isinstance(monto_total_en_semana_uno,str)
+
+print("variable monto total en semana uno:",type_monto_total_en_semana_uno_es_float)
+print("variable es float?:",type_monto_total_en_semana_uno_es_float)
+print("variable es str?:",type_monto_total_en_semana_uno_es_str)
