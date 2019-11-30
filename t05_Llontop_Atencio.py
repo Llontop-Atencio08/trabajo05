@@ -296,3 +296,14 @@ type_ingreso_total_en_venta_de_jugos_es_int=isinstance(ingreso_total_en_venta_de
 print("variable ingreso total en venta de jugos:",type_ingreso_total_en_venta_de_jugos_es_float)
 print("variable es float?:",type_ingreso_total_en_venta_de_jugos_es_float)
 print("variable es int?:",type_ingreso_total_en_venta_de_jugos_es_int)
+
+#EJERCICIO_26
+nombre_de_discoteca="Night"
+type_nombre_de_discoteca=type(nombre_de_discoteca)
+
+type_nombre_de_discoteca_es_str=isinstance(nombre_de_discoteca,str)
+type_nombre_de_discoteca_es_float=isinstance(nombre_de_discoteca,float)
+
+print("variable nombre de discoteca:",type_nombre_de_discoteca_es_str)
+print("variable es str?:",type_nombre_de_discoteca_es_str)
+print("variable es float?:",type_nombre_de_discoteca_es_float)
