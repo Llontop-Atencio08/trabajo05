@@ -72,7 +72,7 @@ print("variable es float?:",type_numero_de_dias_trabajados_de_un_empleado_es_flo
 
 #EJERCICIO_07
 horas_extras_de_un_empleado=8
-type_horas_extras_de_un_empleado=type(type_horas_extras_de_un_empleado)
+type_horas_extras_de_un_empleado=type(horas_extras_de_un_empleado)
 
 type_horas_extras_de_un_empleado_es_int=isinstance(type_horas_extras_de_un_empleado,int)
 type_horas_extras_de_un_empleado_es_str=isinstance(type_horas_extras_de_un_empleado,str)
@@ -84,11 +84,23 @@ print("variable es str?:",type_horas_extras_de_un_empleado_es_str)
 
 #EJERCICIO_08
 numero_de_clientes_en_el_ciclo=12
-type_numero_de_clientes_en_el_ciclo=type(type_numero_de_clientes_en_el_ciclo)
+type_numero_de_clientes_en_el_ciclo=type(numero_de_clientes_en_el_ciclo)
 
 type_numero_de_clientes_en_el_ciclo_es_int=isinstance(type_numero_de_clientes_en_el_ciclo,int)
 type_numero_de_clientes_en_el_ciclo_es_str=isinstance(type_numero_de_clientes_en_el_ciclo,str)
 
-print("varaible numero de clientes en el ciclo:",type_numero_de_clientes_en_el_ciclo_es_int)
+print("variable numero de clientes en el ciclo:",type_numero_de_clientes_en_el_ciclo_es_int)
 print("variable es int?:",type_numero_de_clientes_en_el_ciclo_es_int)
 print("variable es str?:",type_numero_de_clientes_en_el_ciclo_es_str)
+
+
+#EJERCICIO_09
+costo_de_ventas_en_el_ciclo=345.80
+type_costo_de_ventas_en_el_ciclo=type(costo_de_ventas_en_el_ciclo)
+
+type_costo_de_ventas_en_el_ciclo_es_float=isinstance(type_costo_de_ventas_en_el_ciclo,float)
+type_costo_de_ventas_en_el_ciclo_es_str=isinstance(type_costo_de_ventas_en_el_ciclo,str)
+
+print("variable costo de ventas en el ciclo:",type_costo_de_ventas_en_el_ciclo_es_float)
+print("variable es float?:",type_costo_de_ventas_en_el_ciclo_es_float)
+print("variable es str?:",type_costo_de_ventas_en_el_ciclo_es_str)
