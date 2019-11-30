@@ -570,3 +570,15 @@ type_numero_de_alumnos_de_diciocho_anios_es_float=isinstance(numero_de_alumnos_d
 print("variable numero de alumnos de diciocho anios:",type_numero_de_alumnos_de_diciocho_anios_es_int)
 print("variable es int?:",type_numero_de_alumnos_de_diciocho_anios_es_int)
 print("variable es float?:",type_numero_de_alumnos_de_diciocho_anios_es_float)
+
+
+#EJERCICIO_49
+nombre_de_vendedor="ena"
+type_nombre_de_vendedor=type(nombre_de_vendedor)
+
+type_nombre_de_vendedor_es_str=isinstance(nombre_de_vendedor,str)
+type_nombre_de_vendedor_es_float=isinstance(nombre_de_vendedor,float)
+
+print("variable nombre de vendedor:",type_nombre_de_vendedor_es_str)
+print("variable es str?:",type_nombre_de_vendedor_es_str)
+print("variable es float?:",type_nombre_de_vendedor_es_float)
