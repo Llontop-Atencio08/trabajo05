@@ -445,11 +445,11 @@ venta_total_en_el_mes_de_mayo=257.90
 type_venta_total_en_el_mes_de_mayo=type(venta_total_en_el_mes_de_mayo)
 
 type_venta_total_en_el_mes_de_mayo_es_float=isinstance(venta_total_en_el_mes_de_mayo,float)
-type_venta_total_en_el_mes_de_mayo_es_str=isinstance(venta_total_en_el_mes_de_mayo,str)
+type_venta_total_en_el_mes_de_mayo_es_int=isinstance(venta_total_en_el_mes_de_mayo,int)
 
 print("variable venta total en el mes de mayo:",type_venta_total_en_el_mes_de_mayo_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_mayo_es_float)
-print("variable es str?:",type_venta_total_en_el_mes_de_mayo_es_str)
+print("variable es int?:",type_venta_total_en_el_mes_de_mayo_es_int)
 
 
 #EJERCICIO_39
@@ -457,11 +457,11 @@ venta_total_en_el_mes_de_junio=357.90
 type_venta_total_en_el_mes_de_junio=type(venta_total_en_el_mes_de_junio)
 
 type_venta_total_en_el_mes_de_junio_es_float=isinstance(venta_total_en_el_mes_de_junio,float)
-type_venta_total_en_el_mes_de_junio_es_str=isinstance(venta_total_en_el_mes_de_junio,str)
+type_venta_total_en_el_mes_de_junio_es_int=isinstance(venta_total_en_el_mes_de_junio,int)
 
 print("variable venta total en el mes de junio:",type_venta_total_en_el_mes_de_junio_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_junio_es_float)
-print("variable es str?:",type_venta_total_en_el_mes_de_junio_es_str)
+print("variable es int?:",type_venta_total_en_el_mes_de_junio_es_int)
 
 
 #EJERCICIO_40
@@ -522,3 +522,15 @@ type_venta_total_en_el_mes_de_noviembre_es_str=isinstance(venta_total_en_el_mes_
 print("variable venta total en el mes de noviembre:",type_venta_total_en_el_mes_de_noviembre_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_noviembre_es_float)
 print("variable es str?:",type_venta_total_en_el_mes_de_noviembre_es_str)
+
+
+#EJERCICIO_45
+venta_total_en_el_mes_de_diciembre=3608.90
+type_venta_total_en_el_mes_de_diciembre=type(venta_total_en_el_mes_de_diciembre)
+
+type_venta_total_en_el_mes_de_diciembre_es_float=isinstance(venta_total_en_el_mes_de_diciembre,float)
+type_venta_total_en_el_mes_de_diciembre_es_int=isinstance(venta_total_en_el_mes_de_diciembre,int)
+
+print("variable venta total en el mes de diciembre:",type_venta_total_en_el_mes_de_diciembre_es_float)
+print("variable es float?:",type_venta_total_en_el_mes_de_diciembre_es_float)
+print("variable es int?:",type_venta_total_en_el_mes_de_diciembre_es_int)
