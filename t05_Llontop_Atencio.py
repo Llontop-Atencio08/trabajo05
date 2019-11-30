@@ -128,3 +128,15 @@ type_codigo_de_alumno_es_int=isinstance(codigo_de_alumno,int)
 print("variable codigo de alumno:",type_codigo_de_alumno_es_str)
 print("variable es str?:",type_codigo_de_alumno_es_str)
 print("variable es int?:",type_codigo_de_alumno_es_int)
+
+
+#EJERCIOIO_12
+nota_del_alumno=15
+type_nota_del_alumno=type(nota_del_alumno)
+
+type_nota_del_alumno_es_int=isinstance(nota_del_alumno,int)
+type_nota_del_alumno_es_str=isinstance(nota_del_alumno,str)
+
+print("variable nota del alumno:",type_nota_del_alumno_es_int)
+print("variable es int?:",type_nota_del_alumno_es_int)
+print("variable es str?:",type_nota_del_alumno_es_str)
