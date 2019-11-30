@@ -176,3 +176,15 @@ type_nombre_de_tienda_es_float=isinstance(nombre_de_tienda,float)
 print("variable nombre de tienda:",type_nombre_de_tienda_es_str)
 print("variable es str?:",type_nombre_de_tienda_es_str)
 print("variable es float:",type_nombre_de_tienda_es_float)
+
+
+#EJERCICIO_16
+ingreso_total_en_venta_de_ropa=4973.60
+type_ingreso_total_en_venta_de_ropa=type(ingreso_total_en_venta_de_ropa)
+
+type_ingreso_total_en_venta_de_ropa_es_int=isinstance(ingreso_total_en_venta_de_ropa,int)
+type_ingreso_total_en_venta_de_ropa_es_float=isinstance(ingreso_total_en_venta_de_ropa,float)
+
+print("variable ingreso total en venta de ropa:",type_ingreso_total_en_venta_de_ropa_es_float)
+print("varaible es int?:",type_ingreso_total_en_venta_de_ropa_es_int)
+print("variable es float?:",type_ingreso_total_en_venta_de_ropa_es_float)
