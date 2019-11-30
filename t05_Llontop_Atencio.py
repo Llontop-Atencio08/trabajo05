@@ -248,3 +248,15 @@ type_numero_de_visitas_tumbas_reales_es_str=isinstance(numero_de_visitas_tumbas_
 print("variable numero de visitas tumbas reales:",type_numero_de_visitas_tumbas_reales_es_int)
 print("variable es int?:",type_numero_de_visitas_tumbas_reales_es_int)
 print("variable es str?:",type_numero_de_visitas_tumbas_reales_es_str)
+
+
+#EJERCICIO_22
+numero_de_visitas_bosque_de_pomac=58
+type_numero_de_visitas_bosque_de_pomac=type(numero_de_visitas_bosque_de_pomac)
+
+type_numero_de_visitas_bosque_de_pomac_es_int=isinstance(numero_de_visitas_bosque_de_pomac,int)
+type_numero_de_visitas_bosque_de_pomac_es_float=isinstance(numero_de_visitas_bosque_de_pomac,float)
+
+print("variable numero de visitas bosque de pomac:",type_numero_de_visitas_bosque_de_pomac_es_int)
+print("variable es int?:",type_numero_de_visitas_bosque_de_pomac_es_int)
+print("variable es float?:",type_numero_de_visitas_bosque_de_pomac_es_float)
