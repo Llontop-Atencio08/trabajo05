@@ -366,3 +366,15 @@ type_costo_por_vaso_de_jugo_es_str=isinstance(costo_por_vaso_de_jugo,str)
 print("variable costo por vaso de jugo:",type_costo_por_vaso_de_jugo_es_float)
 print("variable es float?:",type_costo_por_vaso_de_jugo_es_float)
 print("varaiable es str?:",type_costo_por_vaso_de_jugo_es_str)
+
+
+#EJERCICIO_32
+monto_total_de_jugos_de_naranja=1589.70
+type_monto_total_de_jugos_de_naranja=type(monto_total_de_jugos_de_naranja)
+
+type_monto_total_de_jugos_de_naranja_es_float=isinstance(monto_total_de_jugos_de_naranja,float)
+type_monto_total_de_jugos_de_naranja_es_str=isinstance(monto_total_de_jugos_de_naranja,str)
+
+print("variable monto total de jugos de naranja:",type_monto_total_de_jugos_de_naranja_es_float)
+print("variable es float?:",type_monto_total_de_jugos_de_naranja_es_float)
+print("variable es float?:",type_monto_total_de_jugos_de_naranja_es_str)
