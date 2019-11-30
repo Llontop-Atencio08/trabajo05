@@ -546,3 +546,15 @@ type_numero_de_alumnos_de_diciseis_anios_es_float=isinstance(numero_de_alumnos_d
 print("variable numero de alumnos de diciseis anios:",type_numero_de_alumnos_de_diciseis_anios_es_int)
 print("variable es int?:",type_numero_de_alumnos_de_diciseis_anios_es_int)
 print("variable es float?:",type_numero_de_alumnos_de_diciseis_anios_es_float)
+
+
+#EJERCICIO_47
+numero_de_alumnos_de_dicisiete_anios=58
+type_numero_de_alumnos_de_dicisiete_anios=type(numero_de_alumnos_de_dicisiete_anios)
+
+type_numero_de_alumnos_de_dicisiete_anios_es_int=isinstance(numero_de_alumnos_de_dicisiete_anios,int)
+type_numero_de_alumnos_de_dicisiete_anios_es_str=isinstance(numero_de_alumnos_de_dicisiete_anios,str)
+
+print("variable numero de alumnos de dicisiete anios:",type_numero_de_alumnos_de_dicisiete_anios_es_int)
+print("variable es int?:",type_numero_de_alumnos_de_dicisiete_anios_es_int)
+print("variable es str?:",type_numero_de_alumnos_de_dicisiete_anios_es_str)
