@@ -355,3 +355,14 @@ type_numero_de_vasos_de_jugo_surtido_es_float=isinstance(numero_de_vasos_de_jugo
 print("variable numero de vasos de jugo surtido:",type_numero_de_vasos_de_jugo_surtido_es_int)
 print("variable es int?:",type_numero_de_vasos_de_jugo_surtido_es_int)
 print("variable es float?:",type_numero_de_vasos_de_jugo_surtido_es_float)
+
+#EJERCICIO_31
+costo_por_vaso_de_jugo=1.5
+type_costo_por_vaso_de_jugo=type(costo_por_vaso_de_jugo)
+
+type_costo_por_vaso_de_jugo_es_float=isinstance(costo_por_vaso_de_jugo,float)
+type_costo_por_vaso_de_jugo_es_str=isinstance(costo_por_vaso_de_jugo,str)
+
+print("variable costo por vaso de jugo:",type_costo_por_vaso_de_jugo_es_float)
+print("variable es float?:",type_costo_por_vaso_de_jugo_es_float)
+print("varaiable es str?:",type_costo_por_vaso_de_jugo_es_str)
