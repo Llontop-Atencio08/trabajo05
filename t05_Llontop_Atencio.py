@@ -200,3 +200,15 @@ type_total_de_bebidas_alcoholicas_y_cigarros_es_float=isinstance(total_de_bebida
 print("variable total de bebidas alcoholicas y cigarros:",type_total_de_bebidas_alcoholicas_y_cigarros_es_int)
 print("variable es int?:",type_total_de_bebidas_alcoholicas_y_cigarros_es_int)
 print("variable es float?:",type_total_de_bebidas_alcoholicas_y_cigarros_es_float)
+
+
+#EJERCICIO_18
+producto="caja_de_cerveza"
+type_producto=type(producto)
+
+type_producto_es_str=isinstance(producto,str)
+type_producto_es_float=isinstance(producto,float)
+
+print("variable producto es:",type_producto_es_str)
+print("variable es str?:",type_producto_es_str)
+print("variable es float?:",type_producto_es_float)
