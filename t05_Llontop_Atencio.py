@@ -212,3 +212,15 @@ type_producto_es_float=isinstance(producto,float)
 print("variable producto es:",type_producto_es_str)
 print("variable es str?:",type_producto_es_str)
 print("variable es float?:",type_producto_es_float)
+
+
+#EJERCICIO_19
+producto="cigarros"
+type_producto=type(producto)
+
+type_producto_es_str=isinstance(producto,str)
+type_producto_es_int=isinstance(producto,int)
+
+print("variable producto es:",type_producto_es_str)
+print("variable es str?:",type_producto_es_str)
+print("variable es int?:",type_producto_es_int)
