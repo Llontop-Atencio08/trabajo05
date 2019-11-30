@@ -284,3 +284,15 @@ type_promedio_de_visitas_a_lugares_turisticos_es_str=isinstance(promedio_de_visi
 print("variable promedio de visitas a lugares turisticos:",type_promedio_de_visitas_a_lugares_turisticos_es_int)
 print("variable es int?:",type_promedio_de_visitas_a_lugares_turisticos_es_int)
 print("variable es str?:",type_promedio_de_visitas_a_lugares_turisticos_es_str)
+
+
+#EJERCICIO_25
+ingreso_total_en_venta_de_jugos=2500.80
+type_ingreso_total_en_venta_de_jugos=type(ingreso_total_en_venta_de_jugos)
+
+type_ingreso_total_en_venta_de_jugos_es_float=isinstance(ingreso_total_en_venta_de_jugos,float)
+type_ingreso_total_en_venta_de_jugos_es_int=isinstance(ingreso_total_en_venta_de_jugos,int)
+
+print("variable ingreso total en venta de jugos:",type_ingreso_total_en_venta_de_jugos_es_float)
+print("variable es float?:",type_ingreso_total_en_venta_de_jugos_es_float)
+print("variable es int?:",type_ingreso_total_en_venta_de_jugos_es_int)
