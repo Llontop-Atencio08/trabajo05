@@ -474,3 +474,15 @@ type_venta_total_en_el_mes_de_julio_es_str=isinstance(venta_total_en_el_mes_de_j
 print("variable venta total en el mes de julio:",type_venta_total_en_el_mes_de_julio_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_julio_es_float)
 print("variable es str?:",type_venta_total_en_el_mes_de_julio_es_str)
+
+
+#EJERCCICIO_41
+venta_total_en_el_mes_de_agosto=3658.90
+type_venta_total_en_el_mes_de_agosto=type(venta_total_en_el_mes_de_agosto)
+
+type_venta_total_en_el_mes_de_agosto_es_float=isinstance(venta_total_en_el_mes_de_agosto,float)
+type_venta_total_en_el_mes_de_agosto_es_str=isinstance(venta_total_en_el_mes_de_agosto,str)
+
+print("variable venta total en el mes de agosto:",type_venta_total_en_el_mes_de_agosto_es_float)
+print("variable es float?:",type_venta_total_en_el_mes_de_agosto_es_float)
+print("variable es str?:",type_venta_total_en_el_mes_de_agosto_es_str)
