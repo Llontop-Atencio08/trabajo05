@@ -307,3 +307,15 @@ type_nombre_de_discoteca_es_float=isinstance(nombre_de_discoteca,float)
 print("variable nombre de discoteca:",type_nombre_de_discoteca_es_str)
 print("variable es str?:",type_nombre_de_discoteca_es_str)
 print("variable es float?:",type_nombre_de_discoteca_es_float)
+
+
+#EJERCICIO_27
+nombre_de_adolescente="santiago"
+type_nombre_de_adolescente=type(nombre_de_adolescente)
+
+type_nombre_de_adolescente_es_str=isinstance(nombre_de_adolescente,str)
+type_nombre_de_adolescente_es_int=isinstance(nombre_de_adolescente,int)
+
+print("variable nombre de adolescente:",type_nombre_de_adolescente_es_str)
+print("variable es str?:",type_nombre_de_adolescente_es_str)
+print("variable es int?:",type_nombre_de_adolescente_es_int)
