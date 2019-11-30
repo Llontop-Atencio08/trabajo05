@@ -188,3 +188,15 @@ type_ingreso_total_en_venta_de_ropa_es_float=isinstance(ingreso_total_en_venta_d
 print("variable ingreso total en venta de ropa:",type_ingreso_total_en_venta_de_ropa_es_float)
 print("varaible es int?:",type_ingreso_total_en_venta_de_ropa_es_int)
 print("variable es float?:",type_ingreso_total_en_venta_de_ropa_es_float)
+
+
+#EJERCICIO_17
+total_de_bebidas_alcoholicas_y_cigarros=267
+type_total_de_bebidas_alcoholicas_y_cigarros=type(total_de_bebidas_alcoholicas_y_cigarros)
+
+type_total_de_bebidas_alcoholicas_y_cigarros_es_int=isinstance(total_de_bebidas_alcoholicas_y_cigarros,int)
+type_total_de_bebidas_alcoholicas_y_cigarros_es_float=isinstance(total_de_bebidas_alcoholicas_y_cigarros,float)
+
+print("variable total de bebidas alcoholicas y cigarros:",type_total_de_bebidas_alcoholicas_y_cigarros_es_int)
+print("variable es int?:",type_total_de_bebidas_alcoholicas_y_cigarros_es_int)
+print("variable es float?:",type_total_de_bebidas_alcoholicas_y_cigarros_es_float)
