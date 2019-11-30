@@ -534,3 +534,15 @@ type_venta_total_en_el_mes_de_diciembre_es_int=isinstance(venta_total_en_el_mes_
 print("variable venta total en el mes de diciembre:",type_venta_total_en_el_mes_de_diciembre_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_diciembre_es_float)
 print("variable es int?:",type_venta_total_en_el_mes_de_diciembre_es_int)
+
+
+#EJERCICIO_46
+numero_de_alumnos_de_diciseis_anios=56
+type_numero_de_alumnos_de_diciseis_anios=type(numero_de_alumnos_de_diciseis_anios)
+
+type_numero_de_alumnos_de_diciseis_anios_es_int=isinstance(numero_de_alumnos_de_diciseis_anios,int)
+type_numero_de_alumnos_de_diciseis_anios_es_float=isinstance(numero_de_alumnos_de_diciseis_anios,float)
+
+print("variable numero de alumnos de diciseis anios:",type_numero_de_alumnos_de_diciseis_anios_es_int)
+print("variable es int?:",type_numero_de_alumnos_de_diciseis_anios_es_int)
+print("variable es float?:",type_numero_de_alumnos_de_diciseis_anios_es_float)
