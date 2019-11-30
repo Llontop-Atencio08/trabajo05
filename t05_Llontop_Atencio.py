@@ -510,3 +510,15 @@ type_venta_total_en_el_mes_de_octubre_es_str=isinstance(venta_total_en_el_mes_de
 print("variable venta total en el mes de octubre:",type_venta_total_en_el_mes_de_octubre_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_octubre_es_float)
 print("variable es str?:",type_venta_total_en_el_mes_de_octubre_es_str)
+
+
+#EJERCICIO_44
+venta_total_en_el_mes_de_noviembre=2989.80
+type_venta_total_en_el_mes_de_noviembre=type(venta_total_en_el_mes_de_noviembre)
+
+type_venta_total_en_el_mes_de_noviembre_es_float=isinstance(venta_total_en_el_mes_de_noviembre,float)
+type_venta_total_en_el_mes_de_noviembre_es_str=isinstance(venta_total_en_el_mes_de_noviembre,str)
+
+print("variable venta total en el mes de noviembre:",type_venta_total_en_el_mes_de_noviembre_es_float)
+print("variable es float?:",type_venta_total_en_el_mes_de_noviembre_es_float)
+print("variable es str?:",type_venta_total_en_el_mes_de_noviembre_es_str)
