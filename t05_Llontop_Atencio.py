@@ -260,3 +260,15 @@ type_numero_de_visitas_bosque_de_pomac_es_float=isinstance(numero_de_visitas_bos
 print("variable numero de visitas bosque de pomac:",type_numero_de_visitas_bosque_de_pomac_es_int)
 print("variable es int?:",type_numero_de_visitas_bosque_de_pomac_es_int)
 print("variable es float?:",type_numero_de_visitas_bosque_de_pomac_es_float)
+
+
+#EJERCICIO_23
+numero_de_visitas_bruning=78
+type_numero_de_visitas_bruning=type(numero_de_visitas_bruning)
+
+type_numero_de_visitas_bruning_es_int=isinstance(numero_de_visitas_bruning,int)
+type_numero_de_visitas_bruning_es_str=isinstance(numero_de_visitas_bruning,str)
+
+print("variable numero de visitas bruning:",type_numero_de_visitas_bruning_es_int)
+print("variable es int?:",type_numero_de_visitas_bruning_es_int)
+print("variable es str?:",type_numero_de_visitas_bruning_es_str)
