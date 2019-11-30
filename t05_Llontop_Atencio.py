@@ -152,3 +152,15 @@ type_nombre_de_colegio_es_float=isinstance(nombre_de_colegio,float)
 print("variable nombre de colegio:",type_nombre_de_colegio_es_str)
 print("variable es str?:",type_nombre_de_colegio_es_str)
 print("variable es float?",type_nombre_de_colegio_es_float)
+
+
+#EJERCICIO_14
+edad_de_alumno="16"
+type_edad_de_alumno=type(edad_de_alumno)
+
+type_edad_de_alumno_es_str=isinstance(edad_de_alumno,str)
+type_edad_de_alumno_es_int=isinstance(edad_de_alumno,int)
+
+print("variable edad de alumno:",type_edad_de_alumno_es_int)
+print("variable es int?:",type_edad_de_alumno_es_int)
+print("variable es str?:",type_edad_de_alumno_es_str)
