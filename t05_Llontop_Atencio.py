@@ -498,3 +498,15 @@ type_venta_total_en_el_mes_de_setiembre_es_str=isinstance(venta_total_en_el_mes_
 print("variable venta total en el mes de setiembre:",type_venta_total_en_el_mes_de_setiembre_es_float)
 print("variable es float?:",type_venta_total_en_el_mes_de_setiembre_es_float)
 print("variable es str?:",type_venta_total_en_el_mes_de_setiembre_es_str)
+
+
+#EJERCICIO_43
+venta_total_en_el_mes_de_octubre=3656.90
+type_venta_total_en_el_mes_de_octubre=type(venta_total_en_el_mes_de_octubre)
+
+type_venta_total_en_el_mes_de_octubre_es_float=isinstance(venta_total_en_el_mes_de_octubre,float)
+type_venta_total_en_el_mes_de_octubre_es_str=isinstance(venta_total_en_el_mes_de_octubre,str)
+
+print("variable venta total en el mes de octubre:",type_venta_total_en_el_mes_de_octubre_es_float)
+print("variable es float?:",type_venta_total_en_el_mes_de_octubre_es_float)
+print("variable es str?:",type_venta_total_en_el_mes_de_octubre_es_str)
